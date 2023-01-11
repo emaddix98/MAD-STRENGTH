@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url('IMG-0197.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 950px; /* adjust to desired height */
+  background-color: #006699;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  
+}
+
+header h1 {
+  font-family: 'Arial Black', sans-serif;
+  font-size: 48px;
+  margin: 0;
+  text-shadow: 2px 2px #ff0000;
+}
+
+nav {
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 30px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

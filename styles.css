@@ -27,7 +27,7 @@ header h1 {
 nav {
   background-color: #003366;
   color: white;
-  padding: 10px;
+  padding: 20px; /* increased from 10px */
 }
 
 nav ul {
@@ -44,6 +44,7 @@ nav li {
 nav a {
   color: white;
   text-decoration: none;
+  font-size: 24px; /* increased from default */
 }
 
 main {
@@ -63,4 +64,41 @@ footer {
   color: white;
   text-align: center;
   padding: 10px;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+td {
+  font-size: 1.1em;
+}
+
+td.event {
+  background-color: #ddffdd;
+}
+
+td.time {
+  background-color: #ddddff;
+}
+
+td.workout-name {
+    font-family: "Impact", cursive, sans-serif;
+    color: #ff0000;
+    font-size: 20px;
 }

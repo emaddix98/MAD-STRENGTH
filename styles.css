@@ -1,15 +1,17 @@
 body {
-  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-image: url('IMG-0197.jpg');
+  background-image: url('IMG-0346.PNG');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 950px; /* adjust to desired height */
+  height: 250px; /* adjust to desired height */
   background-color: #006699;
   color: white;
   text-align: center;
@@ -52,7 +54,7 @@ main {
 }
 
 section {
-  margin-bottom: 30px;
+  margin-bottom: 30 px;
 }
 
 section h2 {
@@ -60,7 +62,8 @@ section h2 {
 }
 
 footer {
-  background-color: #003366;
+  margin-bottom: 0;
+  background-color: #333;
   color: white;
   text-align: center;
   padding: 10px;
@@ -72,22 +75,32 @@ table {
   border-collapse: collapse;
   font-family: Arial, sans-serif;
   text-align: center;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #ccc;
 }
 
 th, td {
-  border: 1px solid black;
+  border: 1px solid #ddd;
   padding: 10px;
 }
 
 th {
-  background-color: #f2f2f2;
+  background-color: #333;
+  color: #fff;
   font-size: 1.2em;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 td {
   font-size: 1.1em;
 }
+
+td:hover {
+  background-color: #ddffdd;
+}
+
 
 td.event {
   background-color: #ddffdd;
@@ -98,7 +111,159 @@ td.time {
 }
 
 td.workout-name {
-    font-family: 'Times New Roman', Times, serif
-    color: #ff0000;
+    font-family: 'Arial Black', sans-serif;
+    color: #333;
     font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  /* styles for screens smaller than 768px */
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  nav li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.image-container {
+  background-image: url('IMG-0346.PNG');
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+
+.image-container {
+  background-image: url('IMG-0346.PNG');
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+
+.row-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.about {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+.services ul {
+  list-style: none;
+}
+
+.services li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+padding: 10px 20px;
+background-color: #f9f9f9;
+border-radius: 10px;
+transition: all 0.2s ease-in-out;
+}
+
+.services li:hover {
+background-color: #e0e0e0;
+box-shadow: 2px 2px 5px #ccc;
+transform: scale(1.1);
+}
+
+.services li i {
+margin-right: 10px;
+font-size: 24px;
+}
+
+.services h2 {
+margin-top: 0;
+font-size: 36px;
+text-align: center;
+}
+
+
+.benefits {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+.contact {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+.schedule {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.nav {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.example {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.example img {
+  width: 50%;
+  margin-right: 20px;
+}
+
+#success-stories {
+  background-color: #f2f2f2;
+  padding: 20px;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+#success-stories .story {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#success-stories .story img {
+  width: 40%;
+  margin-right: 20px;
 }

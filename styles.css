@@ -153,11 +153,11 @@ td.workout-name {
 .image-container {
   background-image: url('IMG-0346.PNG');
   width: 100%;
-  height: 100%;
+  height: 300px;
   background-size: cover;
 }
 
-.image-container {
+.image-container2 {
   background-image: url('IMG-0346.PNG');
   width: 100%;
   height: 300px;

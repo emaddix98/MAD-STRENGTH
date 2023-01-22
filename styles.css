@@ -71,7 +71,7 @@ footer {
 }
 
 table {
-  width: 80%;
+  width: 55%;
   margin: 0 auto;
   border-collapse: collapse;
   font-family: Arial, sans-serif;
@@ -152,7 +152,7 @@ td.workout-name {
 
 .image-container {
   background-image: url('IMG-0346.PNG');
-  width: 100%;
+  width: auto;
   height: 300px;
   background-size: cover;
 }

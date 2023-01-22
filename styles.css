@@ -82,13 +82,7 @@ table {
   box-shadow: 0px 0px 10px #ccc;
 }
 
-/* Media query for screens less than 600px wide */
-@media screen and (max-width: 600px) {
-  table {
-    width: 100%;
-    margin: 0; /* remove the center alignment */
-  }
-}
+
 
 
 th, td {
@@ -244,9 +238,13 @@ text-align: center;
   box-shadow: 0px 0px 10px #ccc;
   background-size: cover;
 
-
-
 }
+
+@media screen and (max-width: 600px) {
+  .schedule {
+    width: 100%;
+    margin: 0; /* remove the center alignment */
+  }}
 
 .header {
   background-color: #333;
